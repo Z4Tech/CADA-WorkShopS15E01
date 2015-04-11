@@ -1,0 +1,259 @@
+<!doctype html>
+
+<html lang="zh_cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Web超基础教学</title>
+    <meta name="author" content="Z4Tech" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+
+
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/highlight.js"></script>
+
+
+</head>
+
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+  <div id="main" class="step" data-x="-20000" data-y="-1500" data-scale="1">
+      <h1>Web超基础教学</h1>
+      <p>Z4Tech 2015/4/11</p>
+  </div>
+
+    <div class="step slide" data-x="-1000" data-y="-1500">
+      <h1>什么是 HTML？</h1>
+
+<p>HTML 是用来描述网页的一种语言。</p>
+
+<ul>
+<li>HTML 指的是超文本标记语言 (<b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage)</li>
+<li>HTML 不是一种编程语言，而是一种<em>标记语言</em> (markup language)</li>
+<li>标记语言是一套<em>标记标签</em> (markup tag)</li>
+<li>HTML 使用<em>标记标签</em>来描述网页</li>
+</ul>
+    </div>
+
+    <div class="step slide" data-x="0" data-y="-1500">
+      <h2>HTML 文档 = 网页</h2>
+
+<ul>
+<li>HTML 文档<em>描述网页</em></li>
+<li>HTML 文档<em>包含 HTML 标签</em>和纯文本</li>
+<li>HTML 文档也被称为<em>网页</em></li>
+</ul>
+
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-1500">
+      <p>Web 浏览器的作用是读取 HTML 文档，并以网页的形式显示出它们。浏览器不会显示 HTML 标签，而是使用标签来解释页面的内容：</p>
+
+<pre>
+  <code class="html">
+    &lt;html&gt;
+    &lt;body&gt;
+    &lt;h1&gt;My First Heading&lt;/h1&gt;
+    &lt;p&gt;My first paragraph.&lt;/p&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+  </code>
+
+</pre>
+
+
+    </div>
+
+    <div id="title" class="step" data-x="0" data-y="-1500" data-z="3000" data-scale="4">
+        <h1>工欲善其事，必先利其器<sup>*</sup></h1>
+    </div>
+
+    <div class="step slide" data-x="0" data-y="-15000" data-z="6000">
+      <h1>浏览器</h1>
+
+    <p>有各种浏览器可供选择</p>
+
+    <ul>
+    <li><b>Chrome</b></li>
+    <li>Firefox</li>
+    <li>IE</li>
+    <li>Opera</li>
+    </ul>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-15000" data-z="6000">
+      <h1>编辑器</h1>
+
+    <p>推荐的编辑器</p>
+
+    <ul>
+    <li><b>Atom</b> + Emmet</li>
+    <li>Notepad++</li>
+    <li>Sublime Text + Emmet</li>
+    </ul>
+    </div>
+
+    <div class="step slide" data-x="2000" data-y="-15000" data-z="6000">
+      <h1>临时的替代方案</h1>
+
+    <ul>
+    <li><b>http://codepen.io/</b></li>
+    <li>http://runjs.cn/</li>
+    </ul>
+    </div>
+
+    <div class="step slide" data-x="2000" data-y="-10000" data-z="6000">
+      <h1>网页的结构</h1>
+    <ul>
+    <li>DOM</li>
+    <li>顺序结构</li>
+    </ul>
+    </div>
+
+    <div class="step slide" data-x="2000" data-y="-9000" data-z="6000">
+      <h1>网页的结构</h1>
+    <ul>
+    <li>查看网页源代码 - Chrome</li>
+    <li>可视化方案 - Firefox</li>
+    </ul>
+    </div>
+
+    <div class="step slide" data-x="2000" data-y="-8000" data-z="6000">
+      <h1>各种标签</h1>
+    <ul>
+    <li>HTML标题 h1 ~ h6 </li>
+    <li>HTML段落 - p</li>
+      <li>HTML链接 - a</li>
+    <li>HTML图像 - img </li>
+    <li>...</li>
+    </ul>
+    </div>
+
+    <div class="step slide" data-x="2000" data-y="-7000" data-z="6000">
+      <h1>各种标签</h1>
+    <ul>
+    <li> br, hr </li>
+    <li>div, span</li>
+      <li>form, table</li>
+    <li>head, body </li>
+    <li>HTML5元素</li>
+    <li>...</li>
+    </ul>
+    </div>
+
+    <div id="title-2" class="step" data-x="2000" data-y="-9000" data-z="10000" data-scale="4">
+        <h1>为文档添加样式<sup>*</sup></h1>
+    </div>
+
+    <div class="step slide" data-x="20000" data-y="-9000" data-z="10000">
+      <h1>CSS 概述</h1>
+
+  <ul>
+  <li>CSS 指层叠样式表 (<em>C</em>ascading <em>S</em>tyle <em>S</em>heets)</li>
+  <li>样式定义<em>如何显示</em> HTML 元素</li>
+  <li>样式通常存储在<em>样式表</em>中</li>
+  <li>把样式添加到 HTML 4.0 中，是为了<em>解决内容与表现分离的问题</em></li>
+  <li><em>外部样式表</em>可以极大提高工作效率</li>
+  <li>外部样式表通常存储在 <em>CSS 文件</em>中</li>
+  <li>多个样式定义可<em>层叠</em>为一</li>
+  </ul>
+
+    </div>
+
+    <div class="step slide" data-x="21000" data-y="-9000" data-z="10000">
+      <h2>样式解决了一个普遍的问题</h2>
+
+      <p>HTML 标签原本被设计为用于定义文档内容。通过使用 &lt;h1&gt;、&lt;p&gt;、&lt;table&gt; 这样的标签，HTML 的初衷是表达“这是标题”、“这是段落”、“这是表格”之类的信息。同时文档布局由浏览器来完成，而不使用任何的格式化标签。</p>
+
+      <p>由于两种主要的浏览器（Netscape 和 Internet Explorer）不断地将新的 HTML 标签和属性（比如字体标签和颜色属性）添加到 HTML 规范中，创建文档内容清晰地独立于文档表现层的站点变得越来越困难。</p>
+
+      <p>为了解决这个问题，万维网联盟（W3C），这个非营利的标准化联盟，肩负起了 HTML 标准化的使命，并在 HTML 4.0 之外创造出样式（Style）。</p>
+      <p>所有的主流浏览器均支持层叠样式表。</p>
+    </div>
+
+
+
+    <div class="step slide" data-x="22000" data-y="-9000" data-z="10000">
+<h1>层叠次序</h1>
+
+<ol>
+<li>浏览器缺省设置</li>
+<li>外部样式表</li>
+<li>内部样式表（位于 &lt;head&gt; 标签内部）</li>
+<li>内联样式（在 HTML 元素内部）</li>
+</ol>
+</div>
+
+<div class="step slide" data-x="23000" data-y="-9000" data-z="10000">
+<h1>元素选择</h1>
+<p>元素的属性</p>
+<br>
+<h2>选择器</h2>
+<pre>
+<code class="css">
+  h1, h2 {color:black;}
+  div span {color:blue;}
+  #title{color:silver;}
+  p > i {color:red;}
+  span.live {color:yellow;}
+
+</code>
+
+</pre>
+    </div>
+
+    <div class="step slide" data-x="24000" data-y="-9000" data-z="10000">
+      <h1>CSS样式</h1>
+    <ul>
+    <li>背景</li>
+    <li>文字</li>
+    <li>字体</li>
+    <li>链接</li>
+    <li>...</li>
+    </ul>
+    </div>
+
+    <div class="step slide" data-x="25000" data-y="-9000" data-z="10000">
+      <h1>CSS盒模型</h1>
+      <ul>
+      <li>margin</li>
+      <li>border</li>
+      <li>padding</li>
+      <li>content</li>
+      </ul>
+    </div>
+
+    <div class="step slide" data-x="26000" data-y="-9000" data-z="10000">
+      <h1>深入学习资源</h1>
+    <ul>
+    <li> w3cschool - http://www.w3school.com.cn/ </li>
+    <li> <b>CodeAcademy - http://www.codecademy.com/</b></li>
+      <li>极客学院 - http://www.jikexueyuan.com/</li>
+    <li>极客标签 - http://www.gbtags.com/ </li>
+    <li>...</li>
+    </ul>
+    </div>
+
+    <div id="title-3" class="step" data-x="23000" data-y="-9000" data-z="16000" data-scale="4">
+        <h1>开始动手吧！</h1>
+    </div>
+</div>
+
+<img src="img/logo.png" id="logo">
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
