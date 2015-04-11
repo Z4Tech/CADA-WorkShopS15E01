@@ -1,0 +1,65 @@
+.bottom img{
+  display: none;
+}
+
+.bg{
+  background-image: url(http://a.picphotos.baidu.com/album/s%3D1000%3Bq%3D90/sign=3b55462cf336afc30a0c3b658329d0b5/2fdda3cc7cd98d1039f307dd253fb80e7bec9032.jpg) ;
+  background-size: cover;
+}
+
+.bgwhite, .rightnav, .yyxt{
+  background-color: rgba(255,255,255, 0.5);
+}
+
+.bgwhite{
+  border-top: 3px solid #468278;
+}
+
+.foot{
+  height: 40px;
+  /*  */
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+
+.footer{
+  padding-top: 0px;
+}
+
+.bottom{
+  height: 40px;
+}
+
+.bannerbox{
+  display: none;
+}
+
+.top{
+  position: relative;
+  background: #16322E;
+}
+
+.nav .login{
+  background: #3A8178;
+}
+
+.search_form{
+  background: #145B49;
+}
+
+.search .swap_value{
+  background: #2A7065;
+}
+
+a img{
+  display: none;
+}
+
+.middle ul .fl{
+  color: #05201D;
+}
+
+.title .more, .middle ul li a .date-in,.xxgg ul li a .date-in{
+  color: #0B392F;
+}
