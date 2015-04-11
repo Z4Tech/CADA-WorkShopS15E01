@@ -1,3 +1,6 @@
+/* 使用Minimalist将此css应用于https://portal.pku.edu.cn/portal2013/index.jsp
+ */
+
 .bottom img{
   display: none;
 }
@@ -17,7 +20,7 @@
 
 .foot{
   height: 40px;
-  /*  */
+  /* 此下三行固定footer在底部 */
   width: 100%;
   position: fixed;
   bottom: 0px;
